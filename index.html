@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+</head>
+<style>
+    body {
+        margin: 15px;
+        background-color: rgba(0, 0, 0, 0.893);
+        color: white;
+    }
+    div p {
+        font-weight: bold;
+    }
+    header {
+        text-align: center;
+    }
+    header img {
+        object-fit: cover;
+    }
+    .paintings {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .paintings .img-container {
+        align-content: center;
+    }
+    .paintings .img-container img {
+        object-fit: cover;
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+        margin-top: 35px;
+    }
+    footer a {
+        color: white;
+        font-style: italic;
+    }
+</style>
+<body>
+        <header>
+            <h1>Leonardo Da Vinci</h1>
+            <img src="./img/leonardo.webp" alt="leonardo_davinci" width="200px">
+            <p> (15 April 1452 – 2 May 1519) </p>
+        </header>
+        <div class="description">
+            <p>
+                Leonardo da Vinci (15 April 1452 – 2 May 1519) was an Italian polymath of the High Renaissance who was active as a
+                painter, draughtsman, engineer, scientist, theorist, sculptor and architect. While his fame initially rested on his
+                achievements as a painter, he also became known for his notebooks, in which he made drawings and notes on a variety
+                of
+                subjects, including anatomy, astronomy, botany, cartography, painting, and paleontology. Leonardo's genius
+                epitomized
+                the Renaissance humanist ideal, and his collective works compose a contribution to later generations of artists
+                matched only bsy that of his younger contemporary, Michelangelo.
+            </p>
+        </div>
+        <h2>Some of his paintings</h2>
+        <div class="paintings">
+            <div class="img-container">
+                <a href="https://en.wikipedia.org/wiki/Head_of_a_Woman_(Leonardo,_Turin)" target="blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Leonardo_da_vinci%2C_Head_of_a_girl_01.jpg" alt="head_of_a_girl" height="250">
+                </a>
+                <p>Head of a Woman</p>
+            </div>
+            <div class="img-container">
+                <a href="https://en.wikipedia.org/wiki/Lady_with_an_Ermine" target="blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/800px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg" alt="lady_with_an_ermine" height="250">
+                </a>
+                <p>Lady with an Ermine</p>
+            </div>
+            <div class="img-container">
+                <a href="https://en.wikipedia.org/wiki/Vitruvian_Man" target="blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Da_Vinci_Vitruve_Luc_Viatour_%28cropped%29.jpg/800px-Da_Vinci_Vitruve_Luc_Viatour_%28cropped%29.jpg" alt="vitruvian_man" height="250">
+                </a>
+                <p>The Vitruvian Man</p>
+            </div>
+            <div class="img-container">
+                <a href="https://en.wikipedia.org/wiki/Virgin_of_the_Rocks" target="blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg/800px-Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg" alt="vergine_delle_rocce" height="250">
+                </a>
+                <p>Virgin of the Rocks</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Leonardo_da_Vinci" target="blank">Wikipedia entry.</a></p>
+        </footer>
+</body>
+</html>
